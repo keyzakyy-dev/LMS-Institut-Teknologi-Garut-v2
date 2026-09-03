@@ -16,10 +16,10 @@ export function Hero() {
         className="pointer-events-none absolute inset-0"
         style={{
           backgroundImage: `
-            repeating-linear-gradient(0deg, transparent, transparent 58px, oklch(0.556 0.016 285.938 / 0.07) 58px, oklch(0.556 0.016 285.938 / 0.07) 60px),
-            repeating-linear-gradient(90deg, transparent, transparent 58px, oklch(0.556 0.016 285.938 / 0.07) 58px, oklch(0.556 0.016 285.938 / 0.07) 60px)
+            repeating-linear-gradient(0deg, transparent, transparent 63px, oklch(0.556 0.016 285.938 / 0.07) 63px, oklch(0.556 0.016 285.938 / 0.07) 65px),
+            repeating-linear-gradient(90deg, transparent, transparent 63px, oklch(0.556 0.016 285.938 / 0.07) 63px, oklch(0.556 0.016 285.938 / 0.07) 65px)
           `,
-          backgroundSize: "60px 60px",
+          backgroundSize: "65px 65px",
           maskImage: "linear-gradient(to bottom, black 0%, black 55%, transparent 100%)",
           WebkitMaskImage: "linear-gradient(to bottom, black 0%, black 55%, transparent 100%)",
         }}

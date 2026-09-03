@@ -35,10 +35,10 @@ export function LoginPage() {
         className="pointer-events-none absolute inset-0"
         style={{
           backgroundImage: `
-            repeating-linear-gradient(0deg, transparent, transparent 38px, oklch(0.556 0.016 285.938 / 0.06) 38px, oklch(0.556 0.016 285.938 / 0.06) 40px),
-            repeating-linear-gradient(90deg, transparent, transparent 38px, oklch(0.556 0.016 285.938 / 0.06) 38px, oklch(0.556 0.016 285.938 / 0.06) 40px)
+            repeating-linear-gradient(0deg, transparent, transparent 63px, oklch(0.556 0.016 285.938 / 0.06) 63px, oklch(0.556 0.016 285.938 / 0.06) 65px),
+            repeating-linear-gradient(90deg, transparent, transparent 63px, oklch(0.556 0.016 285.938 / 0.06) 63px, oklch(0.556 0.016 285.938 / 0.06) 65px)
           `,
-          backgroundSize: "40px 40px",
+          backgroundSize: "65px 65px",
         }}
       />
 
