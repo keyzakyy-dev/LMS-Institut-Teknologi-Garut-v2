@@ -12,10 +12,8 @@ function LogoLink() {
   return (
     <a href="#beranda" className="flex items-center gap-2" aria-label="Institut Teknologi Garut">
       <Logo />
-      <span className="hidden text-base font-semibold leading-tight sm:block">
-        Institut Teknologi
-        <br />
-        Garut
+      <span className="hidden text-base font-semibold leading-tight whitespace-nowrap sm:block">
+        Institut Teknologi Garut
       </span>
     </a>
   )

@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next"
+import { Link } from "react-router-dom"
 import { ArrowRight, HelpCircle } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
@@ -32,9 +33,11 @@ export function Hero() {
             {t("hero.deskripsi")}
           </p>
           <div className="flex flex-wrap justify-center gap-3 md:justify-start">
-            <Button size="lg" className="bg-sky-500 hover:bg-sky-600">
-              {t("hero.ctaMulai")}
-              <ArrowRight className="size-4" />
+            <Button size="lg" className="bg-sky-500 hover:bg-sky-600" asChild>
+              <Link to="/login">
+                {t("hero.ctaMulai")}
+                <ArrowRight className="size-4" />
+              </Link>
             </Button>
             <Button variant="outline" size="lg" asChild>
               <a href="#faq">

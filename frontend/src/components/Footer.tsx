@@ -58,7 +58,7 @@ export function Footer() {
               <a href="#beranda" className="hover:text-foreground">{t("nav.beranda")}</a>
               <a href="#program-studi" className="hover:text-foreground">{t("nav.programStudi")}</a>
               <a href="#faq" className="hover:text-foreground">{t("nav.faq")}</a>
-              <a href="#" className="hover:text-foreground">{t("footer.tentang")}</a>
+              <a href="/" className="hover:text-foreground">{t("footer.tentang")}</a>
             </nav>
           </div>
           <div className="flex flex-col gap-3">
