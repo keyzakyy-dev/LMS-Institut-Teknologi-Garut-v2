@@ -1,32 +1,111 @@
-# React + TypeScript + Vite
+# LMS Landing Page — Institut Teknologi Garut
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Landing page untuk sistem LMS (Learning Management System) Institut Teknologi Garut. Halaman ini menjadi pintu masuk utama bagi mahasiswa, dosen, calon mahasiswa, dan pengunjung umum sebelum masuk ke sistem pembelajaran.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
 
-## React Compiler
+| Bagian | Teknologi |
+|---|---|
+| Framework | React 19 |
+| Build Tool | Vite 8 |
+| Bahasa | TypeScript 6 |
+| UI Components | shadcn/ui (Radix UI) |
+| Styling | Tailwind CSS v4 |
+| Animasi | tw-animate-css |
+| Routing | React Router v7 |
+| i18n | react-i18next |
+| Font Utama | Space Grotesk (heading), DM Sans (body) |
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Fitur
 
-## Expanding the Oxlint configuration
+- **Landing Page** — 4 section: Navigasi, Hero, Program Studi (bento grid), Footer
+- **Dwibahasa** — Indonesia & Inggris, switch via tombol header
+- **Login Page** — Halaman login terpisah dengan form validasi
+- **Responsif** — Desktop, tablet, dan mobile
+- **Animasi Scroll** — Fade-in + translate saat elemen masuk viewport
+- **Pattern Grid** — Dekorasi kotak-kotak halus di Hero & Login
+- **Smooth Scroll** — Anchor link navigasi
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+## Struktur Proyek
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+```
+frontend/
+├── public/
+│   └── favicon.png
+├── src/
+│   ├── assets/
+│   │   ├── prodi/          # Gambar program studi
+│   │   ├── hero.png
+│   │   └── logo-itg.png
+│   ├── components/
+│   │   ├── ui/             # shadcn/ui components
+│   │   ├── Navbar.tsx
+│   │   ├── Hero.tsx
+│   │   ├── ProgramStudi.tsx
+│   │   ├── Faq.tsx
+│   │   ├── Footer.tsx
+│   │   ├── Logo.tsx
+│   │   └── LanguageSwitcher.tsx
+│   ├── hooks/
+│   │   └── use-in-view.ts
+│   ├── i18n/
+│   │   ├── id.json
+│   │   ├── en.json
+│   │   └── index.ts
+│   ├── lib/
+│   │   └── utils.ts
+│   ├── pages/
+│   │   └── LoginPage.tsx
+│   ├── App.tsx
+│   ├── main.tsx
+│   └── index.css
+├── index.html
+├── package.json
+├── vite.config.ts
+├── components.json
+└── tsconfig*.json
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## Cara Menjalankan
+
+```bash
+# Clone repositori
+git clone <repo-url>
+cd frontend
+
+# Install dependencies
+npm install
+
+# Jalankan development server
+npm run dev
+
+# Build production
+npm run build
+
+# Preview build
+npm run preview
+```
+
+## Halaman
+
+| Route | Halaman |
+|---|---|
+| `/` | Landing page (Hero, Program Studi, FAQ, Footer) |
+| `/login` | Halaman login |
+
+## Warna
+
+Skema warna berdasarkan logo Institut Teknologi Garut:
+
+| Token | Warna | Hex |
+|---|---|---|
+| Primary | Biru logo | `#383B97` |
+| Primary light | Biru medium | `#5660BC` |
+| Background | Putih | `#FFFFFF` |
+| Muted | Abu netral | `oklch(0.968 0.001 286.375)` |
+
+## Lisensi
+
+© Institut Teknologi Garut. Seluruh hak cipta dilindungi.
