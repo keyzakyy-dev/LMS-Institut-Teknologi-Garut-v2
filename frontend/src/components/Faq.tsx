@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next"
-import { Mail, Phone, Clock, MessageCircle, ExternalLink, LifeBuoy } from "lucide-react"
+import { Mail, Phone, Clock, MessageCircle, ExternalLink, HelpCircle } from "lucide-react"
 import { Accordion, AccordionItem, AccordionTrigger, AccordionContent } from "@/components/ui/accordion"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
@@ -43,8 +43,8 @@ export function Faq() {
             <Card className="gap-0 overflow-hidden border-sky-200 bg-card p-0">
               <CardHeader className="p-6">
                 <div className="flex items-start gap-4">
-                  <span className="flex size-12 shrink-0 items-center justify-center rounded-xl bg-sky-100 text-sky-600">
-                    <LifeBuoy className="size-6" />
+                  <span className="flex size-12 shrink-0 items-center justify-center rounded-full border-2 border-sky-200 bg-sky-50 text-sky-600">
+                    <HelpCircle className="size-6" />
                   </span>
                   <div>
                     <CardTitle className="text-xl font-bold">{t("faq.bantuanJudul")}</CardTitle>
