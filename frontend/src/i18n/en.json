@@ -1,0 +1,77 @@
+{
+  "nav": {
+    "beranda": "Home",
+    "pengumuman": "Announcements",
+    "programStudi": "Study Programs",
+    "login": "Login",
+    "faq": "FAQ"
+  },
+  "hero": {
+    "headline": "Digital Learning Platform of Institut Teknologi Garut",
+    "deskripsi": "Access course materials, assignments, and campus announcements in one integrated learning platform.",
+    "ctaMulai": "Start Learning",
+    "ctaBantuan": "Need Login Help?"
+  },
+  "programStudi": {
+    "judul": "Our Study Programs",
+    "deskripsi": "Choose your preferred study program at Institut Teknologi Garut",
+    "jelajahi": "Explore the Program",
+    "informatika": "Informatics Engineering",
+    "informatika_desc": "Focuses on software development, artificial intelligence, and information technology.",
+    "arsitektur": "Architecture",
+    "arsitektur_desc": "Explores building design, spatial planning, and sustainable architectural design.",
+    "sistemInformasi": "Information Systems",
+    "sistemInformasi_desc": "Integrates information technology with business and management needs.",
+    "sipil": "Civil Engineering",
+    "sipil_desc": "Studies infrastructure design, construction, and maintenance.",
+    "industri": "Industrial Engineering",
+    "industri_desc": "Optimizes production systems, supply chains, and operations management."
+  },
+  "faq": {
+    "judul": "Login Help",
+    "deskripsi": "Frequently asked questions about LMS access",
+    "q1": "How to login to LMS?",
+    "a1": "Visit the LMS login page, enter your NIM/NIP and registered password. If you don't have an account, contact the academic administration.",
+    "q2": "Forgot password?",
+    "a2": "Click 'Forgot Password' on the login page, follow the reset instructions sent to your registered email.",
+    "q3": "Can't access LMS?",
+    "a3": "Make sure your internet connection is stable and your browser is up to date. If problems persist, contact IT helpdesk.",
+    "q4": "My account is locked, how do I unlock it?",
+    "a4": "Accounts are usually locked after several failed login attempts. Wait a moment and try again, or contact the IT helpdesk to unlock your account.",
+    "bantuanJudul": "Still Need Help?",
+    "bantuanDeskripsi": "Our support team is ready to help you resolve LMS access issues.",
+    "bantuanEmail": "info@itg.ac.id",
+    "bantuanTelp": "0262-232773",
+    "bantuanWhatsapp": "Chat on WhatsApp",
+    "bantuanLogin": "Go to Login Page",
+    "bantuanJam": "Monday–Friday, 08.00–16.00 WIB"
+  },
+  "footer": {
+    "deskripsi": "Institut Teknologi Garut — Advancing the nation through excellent and character-driven technology education.",
+    "navigasi": "Navigation",
+    "kontak": "Contact Us",
+    "tentang": "About Us",
+    "copyright": "Copyright",
+    "allRights": "All rights reserved."
+  },
+  "announcement": {
+    "judul": "Announcements",
+    "kosong": "No announcements yet."
+  },
+  "login": {
+    "selamatDatang": "Welcome Back",
+    "deskripsi": "Sign in to access the Institut Teknologi Garut LMS",
+    "username": "NIM / NIP / Email",
+    "usernamePlaceholder": "Enter your NIM, NIP, or email",
+    "password": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "ingatSaya": "Remember me",
+    "lupaPassword": "Forgot password?",
+    "masuk": "Sign In",
+    "kembali": "Back to Home",
+    "noAkun": "Don't have an account?",
+    "hubungiAdmin": "Contact academic administration",
+    "demo": "Demo: fill anything and click Sign In",
+    "error": "Please fill in NIM/NIP/email and password."
+  }
+}

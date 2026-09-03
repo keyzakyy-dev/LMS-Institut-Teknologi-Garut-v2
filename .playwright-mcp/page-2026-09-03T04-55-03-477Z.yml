@@ -1,0 +1,87 @@
+- generic [ref=f1e3]:
+  - banner [ref=f1e4]:
+    - generic [ref=f1e5]:
+      - link "Institut Teknologi Garut" [ref=f1e6] [cursor=pointer]:
+        - /url: "#beranda"
+        - generic [ref=f1e11]: Institut TeknologiGarut
+      - navigation "Navigasi utama" [ref=f1e12]:
+        - link "Beranda" [ref=f1e13] [cursor=pointer]:
+          - /url: "#beranda"
+        - link "Program Studi" [ref=f1e14] [cursor=pointer]:
+          - /url: "#program-studi"
+        - link "FAQ" [ref=f1e15] [cursor=pointer]:
+          - /url: "#faq"
+        - button "Pengumuman" [ref=f1e16]
+      - generic [ref=f1e17]:
+        - button "Ganti bahasa" [ref=f1e18]: EN
+        - button "Login" [ref=f1e20]
+  - main [ref=f1e21]:
+    - generic [ref=f1e24]:
+      - heading "Platform Pembelajaran Digital Institut Teknologi Garut" [level=1] [ref=f1e25]
+      - paragraph [ref=f1e26]: Akses materi kuliah, tugas, dan pengumuman kampus dalam satu platform pembelajaran terpadu.
+      - generic [ref=f1e27]:
+        - button "Mulai Belajar" [ref=f1e28]
+        - link "Butuh Bantuan Login?" [ref=f1e29] [cursor=pointer]:
+          - /url: "#faq"
+    - generic [ref=f1e33]:
+      - generic [ref=f1e34]:
+        - heading "Program Studi Kami" [level=2] [ref=f1e35]
+        - paragraph [ref=f1e36]: Pilih program studi unggulan di Institut Teknologi Garut
+      - generic [ref=f1e37]:
+        - generic [ref=f1e38] [cursor=pointer]:
+          - generic [ref=f1e39]: Teknik Informatika
+          - generic [ref=f1e44]: Program studi yang fokus pada pengembangan perangkat lunak, kecerdasan buatan, dan teknologi informasi.
+        - generic [ref=f1e46] [cursor=pointer]:
+          - generic [ref=f1e47]: Arsitektur
+          - generic [ref=f1e54]: Program studi yang mendalami perancangan bangunan, tata ruang, dan desain arsitektur berkelanjutan.
+        - generic [ref=f1e56] [cursor=pointer]:
+          - generic [ref=f1e57]: Sistem Informasi
+          - generic [ref=f1e64]: Program studi yang mengintegrasikan teknologi informasi dengan kebutuhan bisnis dan manajemen.
+        - generic [ref=f1e66] [cursor=pointer]:
+          - generic [ref=f1e67]: Teknik Sipil
+          - generic [ref=f1e75]: Program studi yang mempelajari perancangan, konstruksi, dan pemeliharaan infrastruktur.
+        - generic [ref=f1e77] [cursor=pointer]:
+          - generic [ref=f1e78]: Teknik Industri
+          - generic [ref=f1e83]: Program studi yang mengoptimalkan sistem produksi, rantai pasok, dan manajemen operasi.
+    - generic [ref=f1e86]:
+      - generic [ref=f1e87]:
+        - heading "Bantuan Login" [level=2] [ref=f1e88]
+        - paragraph [ref=f1e89]: Pertanyaan umum seputar akses LMS
+      - generic [ref=f1e90]:
+        - heading [level=3] [ref=f1e92]:
+          - button "Bagaimana cara login ke LMS?" [ref=f1e93]
+        - heading [level=3] [ref=f1e95]:
+          - button "Lupa password?" [ref=f1e96]
+        - heading [level=3] [ref=f1e98]:
+          - button "Tidak bisa mengakses LMS?" [ref=f1e99]
+  - contentinfo [ref=f1e100]:
+    - generic [ref=f1e101]:
+      - generic [ref=f1e102]:
+        - generic [ref=f1e103]:
+          - generic [ref=f1e104]: Institut Teknologi Garut
+          - paragraph [ref=f1e110]: Institut Teknologi Garut — Mencerdaskan kehidupan bangsa melalui pendidikan teknologi yang unggul dan berkarakter.
+        - generic [ref=f1e111]:
+          - heading "Navigasi" [level=3] [ref=f1e112]
+          - navigation [ref=f1e113]:
+            - link "Beranda" [ref=f1e114] [cursor=pointer]:
+              - /url: "#beranda"
+            - link "Program Studi" [ref=f1e115] [cursor=pointer]:
+              - /url: "#program-studi"
+            - link "FAQ" [ref=f1e116] [cursor=pointer]:
+              - /url: "#faq"
+            - link "Tentang Kami" [ref=f1e117] [cursor=pointer]:
+              - /url: "#"
+        - generic [ref=f1e118]:
+          - heading "Hubungi Kami" [level=3] [ref=f1e119]
+          - list [ref=f1e120]:
+            - listitem [ref=f1e121]: Jl. Raya Garut-Tasik, Garut 44151
+            - listitem [ref=f1e125]: info@itg.ac.id
+            - listitem [ref=f1e129]: (0262) 123456
+          - generic [ref=f1e132]:
+            - link "Instagram" [ref=f1e133] [cursor=pointer]:
+              - /url: "#"
+            - link "Facebook" [ref=f1e137] [cursor=pointer]:
+              - /url: "#"
+            - link "YouTube" [ref=f1e141] [cursor=pointer]:
+              - /url: "#"
+      - paragraph [ref=f1e145]: © 2026 Hak Cipta Institut Teknologi Garut. Seluruh hak cipta dilindungi.

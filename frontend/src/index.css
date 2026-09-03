@@ -1,0 +1,98 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "@fontsource/space-grotesk/400.css";
+@import "@fontsource/space-grotesk/500.css";
+@import "@fontsource/space-grotesk/600.css";
+@import "@fontsource/space-grotesk/700.css";
+@import "@fontsource/dm-sans/400.css";
+@import "@fontsource/dm-sans/400-italic.css";
+@import "@fontsource/dm-sans/500.css";
+@import "@fontsource/dm-sans/600.css";
+@import "@fontsource/dm-sans/700.css";
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --font-sans: var(--font-sans);
+  --font-heading: var(--font-heading);
+  --font-mono: var(--font-mono);
+  --color-sky-50: #EEF0FB;
+  --color-sky-100: #DDE1F6;
+  --color-sky-200: #C2C9EE;
+  --color-sky-300: #A0ABE3;
+  --color-sky-400: #7A86D2;
+  --color-sky-500: #5660BC;
+  --color-sky-600: #383B97;
+  --color-sky-700: #2E327D;
+  --color-sky-800: #272A66;
+  --color-sky-900: #242752;
+}
+
+:root {
+  --radius: 0.625rem;
+  --background: oklch(1 0 0);
+  --foreground: oklch(0.145 0 0);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.145 0 0);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.145 0 0);
+  --primary: #383B97;
+  --primary-foreground: oklch(0.985 0 0);
+  --secondary: oklch(0.968 0.001 286.375);
+  --secondary-foreground: oklch(0.205 0.042 265.755);
+  --muted: oklch(0.968 0.001 286.375);
+  --muted-foreground: oklch(0.556 0.016 285.938);
+  --accent: oklch(0.968 0.001 286.375);
+  --accent-foreground: oklch(0.205 0.042 265.755);
+  --destructive: oklch(0.577 0.245 27.325);
+  --destructive-foreground: oklch(0.985 0 0);
+  --border: oklch(0.922 0.004 286.32);
+  --input: oklch(0.922 0.004 286.32);
+  --ring: #5660BC;
+  --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-heading: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-heading);
+  }
+  [data-slot="card-title"],
+  [data-slot="sheet-title"],
+  [data-slot="dialog-title"] {
+    font-family: var(--font-heading);
+  }
+}

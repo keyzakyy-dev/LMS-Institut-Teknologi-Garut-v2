@@ -1,0 +1,77 @@
+{
+  "nav": {
+    "beranda": "Beranda",
+    "pengumuman": "Pengumuman",
+    "programStudi": "Program Studi",
+    "login": "Login",
+    "faq": "FAQ"
+  },
+  "hero": {
+    "headline": "Platform Pembelajaran Digital Institut Teknologi Garut",
+    "deskripsi": "Akses materi kuliah, tugas, dan pengumuman kampus dalam satu platform pembelajaran terpadu.",
+    "ctaMulai": "Mulai Belajar",
+    "ctaBantuan": "Butuh Bantuan Login?"
+  },
+  "programStudi": {
+    "judul": "Program Studi Kami",
+    "deskripsi": "Pilih program studi unggulan di Institut Teknologi Garut",
+    "jelajahi": "Jelajahi Program Studi",
+    "informatika": "Teknik Informatika",
+    "informatika_desc": "Program studi yang fokus pada pengembangan perangkat lunak, kecerdasan buatan, dan teknologi informasi.",
+    "arsitektur": "Arsitektur",
+    "arsitektur_desc": "Program studi yang mendalami perancangan bangunan, tata ruang, dan desain arsitektur berkelanjutan.",
+    "sistemInformasi": "Sistem Informasi",
+    "sistemInformasi_desc": "Program studi yang mengintegrasikan teknologi informasi dengan kebutuhan bisnis dan manajemen.",
+    "sipil": "Teknik Sipil",
+    "sipil_desc": "Program studi yang mempelajari perancangan, konstruksi, dan pemeliharaan infrastruktur.",
+    "industri": "Teknik Industri",
+    "industri_desc": "Program studi yang mengoptimalkan sistem produksi, rantai pasok, dan manajemen operasi."
+  },
+  "faq": {
+    "judul": "Bantuan Login",
+    "deskripsi": "Pertanyaan umum seputar akses LMS",
+    "q1": "Bagaimana cara login ke LMS?",
+    "a1": "Kunjungi halaman login LMS, masukkan NIM/NIP dan password yang telah didaftarkan. Jika belum memiliki akun, hubungi bagian administrasi akademik.",
+    "q2": "Lupa password?",
+    "a2": "Klik 'Lupa Password' di halaman login, ikuti instruksi reset yang dikirim ke email terdaftar.",
+    "q3": "Tidak bisa mengakses LMS?",
+    "a3": "Pastikan koneksi internet stabil dan browser yang digunakan sudah diperbarui. Jika masih bermasalah, hubungi helpdesk IT.",
+    "q4": "Akun saya terkunci, bagaimana cara membukanya?",
+    "a4": "Akun umumnya terkunci setelah beberapa kali percobaan login gagal. Tunggu beberapa saat lalu coba lagi, atau hubungi helpdesk IT untuk membuka blokir akun.",
+    "bantuanJudul": "Masih Butuh Bantuan?",
+    "bantuanDeskripsi": "Tim bantuan kami siap membantu Anda mengatasi kendala akses LMS.",
+    "bantuanEmail": "info@itg.ac.id",
+    "bantuanTelp": "0262-232773",
+    "bantuanWhatsapp": "Chat WhatsApp",
+    "bantuanLogin": "Menuju Halaman Login",
+    "bantuanJam": "Senin–Jumat, 08.00–16.00 WIB"
+  },
+  "footer": {
+    "deskripsi": "Institut Teknologi Garut — Mencerdaskan kehidupan bangsa melalui pendidikan teknologi yang unggul dan berkarakter.",
+    "navigasi": "Navigasi",
+    "kontak": "Hubungi Kami",
+    "tentang": "Tentang Kami",
+    "copyright": "Hak Cipta",
+    "allRights": "Seluruh hak cipta dilindungi."
+  },
+  "announcement": {
+    "judul": "Pengumuman",
+    "kosong": "Belum ada pengumuman."
+  },
+  "login": {
+    "selamatDatang": "Selamat Datang",
+    "deskripsi": "Masuk untuk mengakses LMS Institut Teknologi Garut",
+    "username": "NIM / NIP / Email",
+    "usernamePlaceholder": "Masukkan NIM, NIP, atau email",
+    "password": "Kata Sandi",
+    "passwordPlaceholder": "Masukkan kata sandi",
+    "ingatSaya": "Ingat saya",
+    "lupaPassword": "Lupa kata sandi?",
+    "masuk": "Masuk",
+    "kembali": "Kembali ke Beranda",
+    "noAkun": "Belum punya akun?",
+    "hubungiAdmin": "Hubungi administrasi akademik",
+    "demo": "Demo: isi apa saja lalu klik Masuk",
+    "error": "Mohon lengkapi NIM/NIP/email dan kata sandi."
+  }
+}
